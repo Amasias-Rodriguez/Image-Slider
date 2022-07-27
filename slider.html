@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="js/slider.js">
+    <title>Image Slider</title>
+</head>
+<body>
+    <section>
+        <img src="/imagenes/img1_large.jpg" id="slider">
+        <ul class="navigation">
+            <li onclick="imgSlider('imagenes/img1_large.jpg')"><img src="/imagenes/img1_thumb.jpg"></li>
+            <li onclick="imgSlider('imagenes/img2_large.jpg')"><img src="/imagenes/img2_thumb.jpg"></li>
+            <li onclick="imgSlider('imagenes/img3_large.jpg')"><img src="/imagenes/img3_thumb.jpg"></li>
+            <li onclick="imgSlider('imagenes/img4_large.jpg')"><img src="/imagenes/img4_thumb.jpg"></li>
+        </ul>
+        <h2>Simple Image Slider</h2>
+    </section>
+    <script src="/js/slider.js"></script>
+</body>
+</html>
